@@ -21,5 +21,5 @@ function deleteFromDriverByKey(driver, key) {
 
   delete newObj.key;
 
-  return newObj;
+  newObj
 }
